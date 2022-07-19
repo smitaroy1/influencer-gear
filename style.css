@@ -1,0 +1,143 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0 auto;
+    padding: 0;
+}
+.hero{
+    background-image: linear-gradien(black);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: auto 3rem;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 600;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 2rem;
+    position: relative;
+}
+
+h1{
+ font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    display: flex;
+    background-repeat: no-repeat;
+    padding: 5%;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: rgb(206, 12, 109);
+    border-radius: 10px;
+    color: white;
+}
+.prebook-camera img{
+    position: relative;
+    border: 2px solid #F7F0FF;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+}
+.circle{
+    background: #F7F0FF;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 53rem;
+    top: 14rem;
+    border-radius: 50%;
+
+}
+.container{
+    margin-top: 100px;
+}
+.section-title h2{
+    justify-content: center;
+   font-size: 20px;
+   color: black;
+}
+
+.logos{
+      box-shadow: 10px  10px 10px 10px ;
+     
+      background-position: 30%;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:24px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-solid fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.see{
+   
+    margin-left: 20%;
+}
+.Featured products{
+    text-align: left;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Featured products-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.suviveImage{
+    margin-left: 500px;
+}
+
+.half-width{
+    margin-left: 170px;
+    text-align: right;
+    width:400px;
+}
+.half-widthH1{
+    font-size: 50px;
+}
+.half-widthP{
+    font-size: 17px;
+    color: gray;
+}
+footer{
+    margin-top: 100px ;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+   padding-top: 50px;
+}
